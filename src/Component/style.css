@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    width:800px;
+    margin-top:20px;
+    justify-content: space-around;
+}
+.container > div{
+    width:300px;
+    box-sizing: border-box;
+    padding:10px;
+}
+.box1{
+    border:solid 2px green;
+}
+.box2{
+    border:solid 2px blue;
+}
+.box1 button, .box2 button{
+    width:100%;
+    border:none;
+    margin:5px 0;
+    padding:10px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
